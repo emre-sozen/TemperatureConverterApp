@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952D3F4128525D050029CB2C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D3F4028525D050029CB2C /* MapView.swift */; };
 		95A9BF542851267B00BFFD73 /* TemperatureConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BF532851267B00BFFD73 /* TemperatureConverterApp.swift */; };
 		95A9BF562851267B00BFFD73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BF552851267B00BFFD73 /* ContentView.swift */; };
 		95A9BF582851267C00BFFD73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A9BF572851267C00BFFD73 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		952D3F4028525D050029CB2C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		95A9BF502851267B00BFFD73 /* TemperatureConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A9BF532851267B00BFFD73 /* TemperatureConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterApp.swift; sourceTree = "<group>"; };
 		95A9BF552851267B00BFFD73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				95A9BF532851267B00BFFD73 /* TemperatureConverterApp.swift */,
 				95A9BF552851267B00BFFD73 /* ContentView.swift */,
+				952D3F4028525D050029CB2C /* MapView.swift */,
 				95A9BF572851267C00BFFD73 /* Assets.xcassets */,
 				95A9BF5C2851267C00BFFD73 /* Info.plist */,
 				95A9BF592851267C00BFFD73 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				95A9BF562851267B00BFFD73 /* ContentView.swift in Sources */,
 				95A9BF542851267B00BFFD73 /* TemperatureConverterApp.swift in Sources */,
+				952D3F4128525D050029CB2C /* MapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

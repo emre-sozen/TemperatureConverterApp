@@ -41,7 +41,7 @@ struct ContentView: View {
                 .foregroundColor(.gray)
             Text(convertToCelsius())
                 .font(Font.system(size: 64.0))
-            Text("Degrees Celcius")
+            Text("degrees Celcius")
             Spacer()
         }
         .foregroundColor(.orange)
