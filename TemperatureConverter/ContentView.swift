@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var fahrenheitValue: String = ""
+    @State var isVisible = false
     
     let numberFormatter: NumberFormatter = {
        let numberFormatter = NumberFormatter()
@@ -46,6 +47,12 @@ struct ContentView: View {
         }
         .foregroundColor(.orange)
         .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+        .opacity(isVisible ? 1.0 : 0.0)
+        .offset(x: 0, y: isVisible ? 0 : 20)
+        .animation(.easeInOut(duration: 1.0))
+        .onAppear {
+            self.isVisible = true
+        }
     }
 }
 
