@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  TemperatureConverter
+
+  Created by Emre Sözen on 10.06.2022.
+  
+*/
+
+"CFBundleName" = "Dünya Gezgini";
+"CFBundleDisplayName" = "Dünya Gezgini";

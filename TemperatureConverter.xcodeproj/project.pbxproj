@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		952D3F4128525D050029CB2C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D3F4028525D050029CB2C /* MapView.swift */; };
+		9573C17728532E6200AB5A96 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9573C17928532E6200AB5A96 /* Localizable.strings */; };
 		95A9BF542851267B00BFFD73 /* TemperatureConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BF532851267B00BFFD73 /* TemperatureConverterApp.swift */; };
 		95A9BF562851267B00BFFD73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BF552851267B00BFFD73 /* ContentView.swift */; };
 		95A9BF582851267C00BFFD73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A9BF572851267C00BFFD73 /* Assets.xcassets */; };
 		95A9BF5B2851267C00BFFD73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A9BF5A2851267C00BFFD73 /* Preview Assets.xcassets */; };
 		95A9BF662851267D00BFFD73 /* TemperatureConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BF652851267D00BFFD73 /* TemperatureConverterTests.swift */; };
 		95A9BF712851267D00BFFD73 /* TemperatureConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BF702851267D00BFFD73 /* TemperatureConverterUITests.swift */; };
+		95E27E642853AF6F00546655 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95E27E662853AF6F00546655 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		952D3F4028525D050029CB2C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9573C17828532E6200AB5A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		95A9BF502851267B00BFFD73 /* TemperatureConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A9BF532851267B00BFFD73 /* TemperatureConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterApp.swift; sourceTree = "<group>"; };
 		95A9BF552851267B00BFFD73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		95A9BF6C2851267D00BFFD73 /* TemperatureConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A9BF702851267D00BFFD73 /* TemperatureConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterUITests.swift; sourceTree = "<group>"; };
 		95A9BF722851267D00BFFD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E27E652853AF6F00546655 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95E27E6A2853AF7E00546655 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95E27E6E2853AFAC00546655 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 			children = (
 				95A9BF532851267B00BFFD73 /* TemperatureConverterApp.swift */,
 				95A9BF552851267B00BFFD73 /* ContentView.swift */,
+				9573C17928532E6200AB5A96 /* Localizable.strings */,
+				95E27E662853AF6F00546655 /* InfoPlist.strings */,
 				952D3F4028525D050029CB2C /* MapView.swift */,
 				95A9BF572851267C00BFFD73 /* Assets.xcassets */,
 				95A9BF5C2851267C00BFFD73 /* Info.plist */,
@@ -218,6 +226,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 95A9BF472851267B00BFFD73;
 			productRefGroup = 95A9BF512851267B00BFFD73 /* Products */;
@@ -237,7 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95A9BF5B2851267C00BFFD73 /* Preview Assets.xcassets in Resources */,
+				9573C17728532E6200AB5A96 /* Localizable.strings in Resources */,
 				95A9BF582851267C00BFFD73 /* Assets.xcassets in Resources */,
+				95E27E642853AF6F00546655 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +309,27 @@
 			targetProxy = 95A9BF6D2851267D00BFFD73 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9573C17928532E6200AB5A96 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9573C17828532E6200AB5A96 /* en */,
+				95E27E6E2853AFAC00546655 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		95E27E662853AF6F00546655 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E27E652853AF6F00546655 /* en */,
+				95E27E6A2853AF7E00546655 /* tr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		95A9BF732851267D00BFFD73 /* Debug */ = {
